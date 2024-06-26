@@ -1,7 +1,9 @@
 .ace_editor {
-    background-color: #002B36;
-    color: #93A1A1;
-    font-size: 18px;
+    /* background-color: #002B36; */
+    background-color: #1E1E1E;
+    /* color: #93A1A1; */
+    color: #D4D4D4;
+    font-size: 15px;
     font-family: 'Inconsolata','Menlo';
 }
 
@@ -109,4 +111,20 @@
 
 .ace_constant_ref {
     color: #dc322f;
+}
+
+div.ace_gutter-cell.inserted {
+    /* background: #01313f; */
+    background-color: #1E1E1E;
+    /* color: #d0edf7; */
+    color: #93A1A1;
+
+}
+
+
+div.ace_gutter-cell {
+    /* background: #01313f; */
+  background-color: #1E1E1E;
+  /* color: #d0edf7; */
+  color: #93A1A1;
 }
